@@ -27,4 +27,4 @@
 ## Extra Information
 1. This was done as part of the w3c and Microsoft's
 HTML & CSS Fundamentals course
-2. The English captions were custom made and the Spanish and French captions were translated from the English captions using Google Translate and thus may not be complete cohorent
+2. The English captions were custom made and the Spanish and French captions were translated from the English captions using Google Translate and thus may not be completely cohorent
