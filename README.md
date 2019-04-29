@@ -17,6 +17,12 @@
 - The browser must have Javascript available and enabled
 
 ## Preview
+![Screenshot1](./img/Screenshot1.png)
+![Screenshot2](./img/Screenshot2.png)
+![Screenshot3](./img/Screenshot3.png)
+![Screenshot4](./img/Screenshot4.png)
+![Screenshot5](./img/Screenshot5.png)
+![Screenshot6](./img/Screenshot6.png)
 
 ## Extra Information
 1. This was done as part of the w3c and Microsoft's
