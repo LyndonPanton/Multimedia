@@ -1,10 +1,8 @@
 # Multimedia
 
 ## How To Open
-1. Go to the folder the project was downloaded in
-2. Right click on the file _index.html_
-3. Click on the _open with_ option
-4. Open the project in your desired browser
+1. Go to the folder the project was downloaded in your operating system's terminal
+2. Start a local server in that folder
 
 ## How To Use
 - Click the navigation links to naviagate to their repective sections
