@@ -1,0 +1,52 @@
+<!-- Activities - Multimedia -->
+<!-- Basic WEBVTT tutorial with styling: https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API -->
+<!-- WebVTT documentation: https://w3c.github.io/webvtt/ -->
+<!-- Add media styling: https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Video_player_styling_basics -->
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Multimedia</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css" />
+</head>
+<body>
+	<header id="header">
+		<h1>Multimedia</h1>
+		<ul id="nav">
+			<li id="nav-audio" class="nav-item"><a href="#audio">Audio</a></li>
+			<li id="nav-video" class="nav-item"><a href="#video">Video</a></li>
+		</ul>
+	</header>
+
+	<main id="main">
+		<p>Media browser compatilibilty: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats#Browser_compatibility">MDN</a></p>
+
+		<section id="audio">
+			<audio controls autoplay muted>
+				<!-- Audio Source: http://file-examples.com/index.php/sample-audio-files/sample-mp3-download/ -->
+				<source src="./media/audio/guitar.mp3" type="audio/mp3" />
+				The browser does not support this audio
+			</audio>
+		</section>
+
+		<section id="video">
+			<!-- Video Poster Source: https://www.pexels.com/photo/close-up-photo-of-person-holding-pizza-1653877/ -->
+			<!-- Turn mute back on -->
+			<video controls poster="./img/samurai_pizza_cats.jpg">
+				<!-- Video Source (edx): https://prod-edxapp.edx-cdn.org/assets/courseware/v1/5315ef6081b631a89442c13f916325c2/asset-v1:W3Cx+HTML5.0x+1T2019+type@asset+block/cat__online-video-cutter.com_.mp4 -->
+				<source src="./media/video/samurai_pizza_cats.mp4" type="video/mp4" />
+				<track src="media/tracks/track_en.vtt" srclang="en" kind="captions" label="English" default />
+				<track src="media/tracks/track_es.vtt" srclang="en" kind="captions" label="Spanish" />
+				<track src="media/tracks/track_fr.vtt" srclang="en" kind="captions" label="French" />
+				The browser does not support this video
+			</video>
+		</section>
+	</main>
+
+	<footer id="footer">
+		<span id="copyright">&copy; 2019 Lyndon Panton | All Rights Reserved</span>
+	</footer>
+
+	<script src="./js/app.js"></script>
+</body>
