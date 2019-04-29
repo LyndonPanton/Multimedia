@@ -3,6 +3,7 @@
 ## How To Open
 1. Go to the folder the project was downloaded in your operating system's terminal
 2. Start a local server in that folder
+3. Go to the localhost on the port you started the server in using your desired browser (e.g. localhost:8000)
 
 ## How To Use
 - Click the navigation links to naviagate to their repective sections
