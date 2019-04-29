@@ -1,0 +1,34 @@
+video {
+	width: 600px;
+}
+
+video::cue(v[voice="All"]) {
+	background-color: black;
+	font-weight: bold;
+	color: yellow;
+}
+
+video::cue(v[voice="Polly"]) {
+	background-color: black;
+	font-weight: bold;
+	color: violet;
+}
+
+video::cue(v[voice="Polly Guido"]) {
+	background-color: black;
+	font-weight: bold;
+	color: cyan;
+}
+
+video::cue(v[voice="Singers"]) {
+	background: linear-gradient(90deg, #880000, #008800, #000088);
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+}
+
+video::cue(v[voice="Speedy"]) {
+	background-color: white;
+	font-weight: bold;
+	color: brown;
+}
